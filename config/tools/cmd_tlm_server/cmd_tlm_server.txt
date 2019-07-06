@@ -1,5 +1,5 @@
 TITLE 'COSMOS Command and Telemetry Server'
 AUTO_INTERFACE_TARGETS # Use cmd_tlm_server.txt from all targets declared in system.txt
 #COLLECT_METADATA
-INTERFACE RIO_INT udp_interface.rb 10.6.96.2 8080 8080 8080 nil 128 10.0 nil
+INTERFACE RIO_INT udp_interface.rb 10.6.96.2 5800 8000 nil nil 128 10.0 nil
   TARGET RIO
